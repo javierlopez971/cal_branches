@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Calculator</title>
+    <script>
+        function cuadrado(){
+            var num=document.getElementById("n1");
+            num.value = num.value * num.value;
+        }
+    </script>
 </head>
 <body>
+    Number:
+    <input type="text" id="n1" onclick="empty()"><p></p>
+    <button onclick="inverse()">x^2</button>
     
 </body>
 </html>
